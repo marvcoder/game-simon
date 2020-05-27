@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    background-color: #dfe1e5;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containerGame
+  {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.containerLevel
+  {
+    margin-top: 35px;
+    height: 40px;
+    width: 100%;
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+.countLevel {
+    height: 70px;
+    width: 250px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    color: #2c4e50;
+    background-color: #ecfeec;
+}
+.gameboard {
+    height: 100vh;
+    width: 100vh;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    max-height: 60vh;
+    max-width: 60vh;
+    cursor: pointer;
+}
+
+.color {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: left;
+}
+.skyblue {
+    background-color: skyblue;
+}
+.skyblue.light{
+    background-color: rgb(185, 233, 252);
+}
+.violet {
+    background-color: violet;
+}
+.violet.light {
+    background-color: rgb(248, 186, 248);
+}
+.orange {
+    background-color: orange;
+}
+.orange.light{
+    background-color: rgb(248, 197, 103);
+}
+.green {
+    background-color: green;
+}
+.green.light {
+    background-color: lightgreen;
+}
+.btn-start {
+    width: 400px;
+    height: 100px;
+    background-color: #ecfeec;
+    color: #2c4e50;
+    font-size: 2.5rem;
+    position: absolute;
+    top: calc(50% - 0px);
+    left: calc(50% - 200px);
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    outline: none;
+    cursor: pointer;
+}
+.btn-start:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    
+}
+.hide {
+    display: none;
+}
